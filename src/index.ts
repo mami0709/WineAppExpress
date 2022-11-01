@@ -1,10 +1,10 @@
-import { AppDataSource } from "./src/data-source"
-import { Wine } from "./src/entities/Wine"
+import { AppDataSource } from "./data-source"
+import { Wine } from "./entities/Wine"
 import { Request, Response } from "express"
 import 'reflect-metadata'
-import WineType from "./src/entities/WineType";
-import Winery from "./src/entities/Winery";
-import Image from "./src/entities/Image";
+import WineType from "./entities/WineType";
+import Winery from "./entities/Winery";
+import Image from "./entities/Image";
 
 
 const port = 8080;
