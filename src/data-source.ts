@@ -1,7 +1,5 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-// import { Wine } from "./entities/Wine";
-// import { Winery } from "./entities/Winery";
 
 export const AppDataSource = new DataSource({
   type: "mysql",
