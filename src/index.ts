@@ -6,7 +6,6 @@ import WineType from "./entities/WineType";
 import Winery from "./entities/Winery";
 import Image from "./entities/Image";
 
-
 const port = 8080;
 const express = require("express");
 const app = express();
