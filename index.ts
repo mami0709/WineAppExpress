@@ -27,6 +27,7 @@ app.get('/wine', async (req: Request, res: Response, next: any) => {
       throw err;
     }
 
+    
     // CORSエラー回避のための設定(何故か動かない)
   const allowCrossDomain = function(req: Request, res: Response, next: any) {
     res.header('Access-Control-Allow-Origin', '*');
