@@ -7,7 +7,7 @@ import Winery from "./src/entities/Winery";
 import Image from "./src/entities/Image";
 
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 const express = require("express");
 const app = express();
 app.get('/wine', async (req: Request, res: Response, next: any) => {
